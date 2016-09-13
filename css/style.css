@@ -1,0 +1,153 @@
+*{
+			margin: 0px;
+			padding: 0px;
+			font-family: sans-serif;
+		}
+		html, body{
+			height: 100%;
+		}
+		.main_wrapper{
+			position: relative;
+			min-height: 100%;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			-ms-flex-pack: center;
+			        justify-content: center;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			-ms-flex-align: center;
+			        align-items: center;
+		}
+		.cuadroUno{
+			width: 742px;
+			height: 579px;
+			border: 1px solid;
+			min-width: 640px;
+		}
+		.cuadroArriba{
+			width: 100%;
+			height: 192px;
+		}
+		.cuadroMedio{
+			width: 100%;
+			height: 154px;
+			text-align: center;
+			position: relative;
+		}
+		.cuadroMedio p{
+			display: inline-block;
+			font-weight: bold;
+			margin-top: 5px;
+			font-size: 1.2em;
+		}
+		.cuadroPuesto{
+			display: inline-block;
+			border: 2px solid #000;
+			border-style: dotted;
+			width: auto;
+			font-size: 2em;
+			padding: 10px;
+			margin: 10px;
+			color: #FF0528;
+		}
+		.cuadroBajo{
+			width: 100%;
+			height: 233px;
+		}
+		
+		.cuadroAUno{
+			float: left;
+			width: 50%;
+			height: 100%;
+		}
+		.cuadroAUno h2{
+			margin-top: 10px;
+			text-align: center;
+		}
+		.cuadroADos{
+			float: right;
+			width: 50%;
+			height: 100%;
+			text-align: center;
+		}
+		
+		.cuadroBUno{
+			float: left;
+			width: 55%;
+			height: 100%;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			-ms-flex-pack: center;
+			        justify-content: center;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			-ms-flex-align: center;
+			        align-items: center;
+		}
+		.cadroPunteado{
+			display: inline-block;
+			border: 2px solid;
+			border-style: dotted;
+			padding: 10px;
+			width: 80%;
+		}
+		.titP{
+			margin: 5px;
+			font-weight: bold;
+			text-align: center;
+		}
+		.litxtChico{
+			font-size: .8em;
+		}
+		.cuadroBDos{
+			float: right;
+			width: 45%;
+			height: 100%;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			-ms-flex-pack: center;
+			        justify-content: center;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			-ms-flex-align: center;
+			        align-items: center;
+		}
+		.sociales{
+			position: absolute;
+			margin-left: -270px;
+			margin-top: 195px;
+		}
+		.txtSocial{
+			position: absolute;
+			padding: 0px 0px 0px 10px;
+			margin-top: 0px;
+		}
+		.logo{
+			width: 240px;
+			margin-top: 20px;
+			margin-left: 30px;
+		}
+		.logo2{
+			margin-top: 70px;
+			width: 240px;
+		}
+		.marcaAgua{
+			position: absolute;
+			width: 320px;
+			margin-top: -380px;
+			margin-left: -25px;
+		}
+		.iconF{
+			width: 32px;
